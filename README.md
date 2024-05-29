@@ -12,4 +12,4 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 
 ### Steps
 
-1.Download this Webex Connect Flow
+1. Download this Webex Connect Flow
