@@ -26,29 +26,13 @@ Now we need ....
 > The login URL will change depending on your region
 2. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Entry Point_** and create a new Entry Point
 3. Set the following values
-
-Name = Chat-EP (this is an example)
-
-Type = Entry Point
-
-Channel Type = Chat
-
-Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my-chat-app' in this example
-
-Service Level Threshold = 120 (this is an example)
-
-And a Description of your choice
-
-Click on **_Save_**
-
-
-1.qas
-2.
-
-
-1. asfddwasf
-2. 
-
+- Name = Chat-EP (this is an example)
+- Type = Entry Point
+- Channel Type = Chat
+- Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my-chat-app' in this example
+- Service Level Threshold = 120 (this is an example)
+- And a Description of your choice
+- Click on **_Save_**
 
 
 
