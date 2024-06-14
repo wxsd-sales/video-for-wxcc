@@ -39,6 +39,7 @@ Now we need to configure the system for sending the interaction to the right que
   - Add a Description of your choice
   - Type = Queue
   - Channel Type = Chat
+  - Queue Routing Type = Longest Available Agent (this is an example)
   - Click on **_Add Group_** in the **_Contact Routing Settings_**. Choose the Team of agents that you want to answer these interactions
   - Service Level Threshold and Maximum Time in Queue = 120 (this is an example)
 
