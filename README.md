@@ -1,5 +1,5 @@
-# Routing Tasks into WxCC
-In this document we are providing instructions to route any Task into Webex Contact Center.
+# Video interaction trigger into WxCC
+In this document we are providing instructions to trigger a video interaction into Webex Contact Center. We will be using a Live Chat Inbound Flow fhor this.
 
 ## Overview
 Webex Contact Center (WxCC) offers a comprehensive set of integration capabilities.
