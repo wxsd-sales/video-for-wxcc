@@ -23,9 +23,12 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 ### Entry Points and Queues setup
 1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
 > The login URL will change depending on your region
-2.
+2. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Entry Point
 3.
 
+
+
+<img width="136" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/004850e4-6623-44ad-ad78-b5c845e816e2">
 
 
 
