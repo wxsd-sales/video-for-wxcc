@@ -6,7 +6,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
  
 ## Prerequisites & Dependencies
 - Webex Connect services must be up and running, you can visit this [link](https://help.webex.com/en-us/article/nee1mb6/Get-started-with-Webex-Contact-Center#Cisco_Task_in_List_GUI.dita_d7731baf-98fb-4a45-8f75-30984a38fa75) to get more details
-- Webex CC Task and Webex CC Engage nodes must be in Authorized state, you can visit this [link](https://help.webex.com/en-us/article/n954r0k/Set-up-digital-channels-in-Webex-Contact-Center) to get more details
+- Webex CC Task and Webex CC Engage nodes must be in an Authorized state, you can visit this [link](https://help.webex.com/en-us/article/n954r0k/Set-up-digital-channels-in-Webex-Contact-Center) to get more details
 - A basic understanding of Live Chat channel asset configuration for Webex Connect is needed
 
 ## Setup
@@ -20,6 +20,20 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 5. Check the option **_Use Secured Port_**, and Save
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
 Please write down the **_Client Key_** value, you will need it later.
+
+### Webex Engage Asset setup
+1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
+> The login URL will change depending on your region
+2. Navigate to **_New Digital Channels_**
+3. Navigate to **_Assets -> Channels Assets_**, and click on the pen icon for the Asset with the same name you chose in the previous step (my_chat_app in this example)
+4. Go to **_Websites_**, and add a new web site
+5. Set the following values (this is an example):
+ - Display Name = Support
+ - Byline Text = We are here to help you
+ - Button text = Click to begin
+ - First message = Hi there
+ - Domain = *.mydomain.com
+
 
 ### Entry Points and Queues setup
 Now we need to configure the system for sending the interaction to the right queue:
