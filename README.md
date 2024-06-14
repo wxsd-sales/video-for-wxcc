@@ -27,11 +27,10 @@ Please write down the **_Client Key_** value, you will need it later.
 2. Navigate to **_New Digital Channels_**
 3. Navigate to **_Assets -> Channels Assets_**, and click on the pen icon for the Asset with the same name you chose in the previous step (my_chat_app in this example)
 4. Go to **_Websites_**, and add a new web site
-5. Set the following values (this is an example):
- - Display Name = Support (this is a mandatory field)
- - First message = Hi there (this message will be shown in the WxCC Agent desktop)
+5. Set the following mandatory values (these are examples):
+ - Display Name = Support
+ - First message = Hi there
  - Domain = *.mydomain.com
-
 
 ### Entry Points and Queues setup
 Now we need to configure the system for sending the interaction to the right queue:
@@ -75,13 +74,14 @@ Your Flow Init configuration should look like this:
 
 Follow the next steps before publishing the flow:
 1. Edit some of the Custom Variables:
-_serviceKey_ = Use the Client Key Value created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset)
-2. Open the _Receive_ Node and click on **_Save_**
-3. Open the _Queue Task_ Node, and select the queue you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#entry-points-and-queues-setup) (Chat-queue in this example)
-4. Open the _Resolve Conversation_ Node, and change the Flow Id value. You can find this value in the WxConnect Services list:
+- _serviceKey_ = Use the Client Key Value created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset)
+ - _liveChatDomain_ = The value you chose in the [previous step]() (*.mydomain.com in this example)
+3. Open the _Receive_ Node and click on **_Save_**
+4. Open the _Queue Task_ Node, and select the queue you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#entry-points-and-queues-setup) (Chat-queue in this example)
+5. Open the _Resolve Conversation_ Node, and change the Flow Id value. You can find this value in the WxConnect Services list:
 <img width="500" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/87b593d2-210b-4b02-acae-8ba293ec3eba">
 
-5. 
+6. 
 
 
  ## Disclaimer
