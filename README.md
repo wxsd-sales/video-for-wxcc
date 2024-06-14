@@ -29,7 +29,7 @@ Now we need ....
 Name = Chat-EP (this is an example)
 Type = Entry Point
 Channel Type = Chat
-Asset Name = select the WxConnect Asset Name you created in the [previous step](), 'my-chat-app' in this example
+Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my-chat-app' in this example
 
 And a Description of your choice
 
