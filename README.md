@@ -6,7 +6,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
  
 ## Prerequisites & Dependencies
 - Webex Connect services must be up and running, you can visit this [link](https://help.webex.com/en-us/article/nee1mb6/Get-started-with-Webex-Contact-Center#Cisco_Task_in_List_GUI.dita_d7731baf-98fb-4a45-8f75-30984a38fa75) for more details.
-- A basic understanding of Live Chat channel asset configuration on Webex Connect is needed.
+- A basic understanding of Live Chat channel asset configuration for Webex Connect is needed.
 
 
 ## Setup
@@ -15,7 +15,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 
 1. Log in to your WxConnent tenant
 2. Navigate to the Menu **_Assets, Apps_**, click on **_Configure New App_** and choose **_Mobile / Web_**
-3. Set a name of your choice, we will use 'my-chat-app' in this example
+3. Set a name of your choice, we will use 'my_chat_app' in this example
 4. When you enable **_Live Chat / In-App Messaging_**, you can choose the Primary and Secondary Transport Protocol. Primary must be **_MQTT_**, and Secondary **_Web Socket_**.
 5. Check the option **_Use Secured Port_**, and Save
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
@@ -30,7 +30,7 @@ Now we need to configure the system for sending the interaction to the right que
  - Name = Chat-EP (this is an example)
  - Type = Entry Point
  - Channel Type = Chat
- - Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my-chat-app' in this example
+ - Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my_chat_app' in this example
  - Service Level Threshold = 120 (this is an example)
  - And a Description of your choice
 4. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Queue_** and create a new Queue
