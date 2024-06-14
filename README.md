@@ -64,8 +64,8 @@ Your Flow Init configuration should look like this:
 Follow the next steps before publishoing the flow:
 1. Edit some of the Custom Variables:
 _serviceKey_ = Use the Client Key Value created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset)
-2. Open the _Receive Node_, and click on **_Save_**
-3. 
+2. Open the _Receive_ Node and click on **_Save_**
+3. Open the _Queue Task_ Node, and select the queue you created in the previous step (Chat-queue in this example)
 
 
  ## Disclaimer
