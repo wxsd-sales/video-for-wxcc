@@ -19,6 +19,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 4. When you enable **_Live Chat / In-App Messaging_**, you can choose the Primary and Secondary Transport Protocol. Primary must be **_MQTT_**, and Secondary **_Web Socket_**.
 5. Check the option **_Use Secured Port_**, and Save
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
+Please write down the **_Client Key_** value, you will need it later.
 
 ### Entry Points and Queues setup
 Now we need to configure the system for sending the interaction to the right queue:
@@ -57,7 +58,10 @@ Now we need to configure the system for sending the interaction to the right que
 7. Save
 Your Flow Init configuration should look like this:
 
-<img width="700" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/c097943c-1aa7-457d-b9d9-99b12bae5be2">
+<img width="500" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/c097943c-1aa7-457d-b9d9-99b12bae5be2">
+
+Now you need to edit some of the Custom Variables:
+serviceKey = Use the Client Key Value created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset)
 
 
 
