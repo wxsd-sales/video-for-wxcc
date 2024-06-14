@@ -47,17 +47,17 @@ Now we need to configure the system for sending the interaction to the right que
 3. Set a name of your choice, 'my_chat_flow' in this example. As **Method**_, choose **_Upload a flow_**, and choose the flow file you downloaded
 4. Select **_Create new Event_** and choose a Name for your webhook (chat-webhook in this example)
 5. Use this Sample Input, and click on Parse
- {
-"customerName": "",
-"customerEmail": "",
-"videoCallDestination": "",
-"inappmessaging.appId": "",
-"inappmessaging.userId": ""
-}
-6. Save
+   ```
+   {"customerName": "",
+   "customerEmail": "",
+   "videoCallDestination": "",
+   "inappmessaging.appId": "",
+   "inappmessaging.userId": ""}
+   ```
+7. Save
 Your Flow Init configuration should look like this:
 
-<img width="942" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/c097943c-1aa7-457d-b9d9-99b12bae5be2">
+<img width="700" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/c097943c-1aa7-457d-b9d9-99b12bae5be2">
 
 
 
