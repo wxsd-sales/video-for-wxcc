@@ -28,10 +28,8 @@ Please write down the **_Client Key_** value, you will need it later.
 3. Navigate to **_Assets -> Channels Assets_**, and click on the pen icon for the Asset with the same name you chose in the previous step (my_chat_app in this example)
 4. Go to **_Websites_**, and add a new web site
 5. Set the following values (this is an example):
- - Display Name = Support
- - Byline Text = We are here to help you
- - Button text = Click to begin
- - First message = Hi there
+ - Display Name = Support (this is a mandatory field)
+ - First message = Hi there (this message will be shown in the WxCC Agent desktop)
  - Domain = *.mydomain.com
 
 
