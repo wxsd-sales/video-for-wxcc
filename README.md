@@ -58,7 +58,7 @@ Now we need to configure the system for sending the interaction to the right que
 1. Download the [flow](https://github.com/wxsd-sales/video-for-wxcc/blob/main/35435.workflow)
 2. Go to the Service you chose in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset) and create a new flow
 3. Set a name of your choice, 'my_chat_flow' in this example. As **Method**_, choose **_Upload a flow_**, and choose the flow file you downloaded
-4. Select **_Create new Event_** and choose a Name for your webhook (chat-webhook in this example)
+4. Select **_Create new Event_** and choose a Name for your Webhook (chat-webhook in this example)
 5. Use this Sample Input, and click on Parse
    ```
    {"customerName": "",
@@ -96,11 +96,16 @@ Now you only need to trigger the flow from your application:
       "inappmessaging.userId":"UUID"
   }'
   ```
-URL = 
+URL = The Webhook URL configured in the [previous step]()
+
 NAME = Customer name that will be shown in the WxCC Agent Desktop
+
 EMAIL = Customer email. If you are planning to use JDS, this must the customer email for the identity in JDS
+
 VIDEOCALLDESTINATION = A custom variable that you can control in the flow. For video use cases like [this](link), this will be the SIP URi destination
+
 APPID = 
+
 UUID = 
 
 
