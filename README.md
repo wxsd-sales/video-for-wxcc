@@ -89,17 +89,19 @@ Now you only need to trigger the flow from your application:
   curl --location URL \
   --header 'Content-Type: application/json' \
   --data-raw '{
-      "customerName":NAME,
-      "customerEmail":EMAIL,
-      "videoCallDestination": <VIDEO_CALL_DESTINATION>,
-      "inappmessaging.appId":,
-      "inappmessaging.userId":"6806ea7s-a04e-4fdb-9d86-0b33626f3577"
+      "customerName": NAME,
+      "customerEmail": EMAIL,
+      "videoCallDestination": VIDEO_CALL_DESTINATION,
+      "inappmessaging.appId": APPID,
+      "inappmessaging.userId":"UUID"
   }'
   ```
 URL = 
 NAME = Customer name that will be shown in the WxCC Agent Desktop
-EMAIL = Customer email. If you are planning to use JDS, this must the customer email for the identgiry in JDS
-videoCallDestination = A custom variable that you can control in the flow. For video use casa like this, aaaa
+EMAIL = Customer email. If you are planning to use JDS, this must the customer email for the identity in JDS
+VIDEOCALLDESTINATION = A custom variable that you can control in the flow. For video use cases like [this](link), this will be the SIP URi destination
+APPID = 
+UUID = 
 
 
 
