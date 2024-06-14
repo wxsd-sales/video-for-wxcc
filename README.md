@@ -111,3 +111,6 @@ UUID = A unique UUID of your choice
 
  ## Disclaimer
  This flow can be used only for demo purposes
+
+## Questions
+Please, contact the WXSD team at wxsd@external.cisco.com for questions. Or, if you're a Cisco internal employee, reach out to us on the Webex App via our bot (globalexpert@webex.bot). In the "Engagement Type" field, choose the "API/SDK Proof of Concept Integration Development" option to reach our team.
