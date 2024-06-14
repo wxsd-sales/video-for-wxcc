@@ -2,7 +2,7 @@
 This document provides instructions to trigger a video interaction into Webex Contact Center (WxCC). We will be using a Live Chat Inbound Flow for this.
 
 ## Overview
-Webex Contact Center (WxCC) offers a comprehensive set of integration capabilities.
+Webex Contact Center (WxCC) offers a comprehensive set of integration capabilities. 
  
 ## Prerequisites & Dependencies
 - Webex Connect services must be up and running, you can visit this [link](https://help.webex.com/en-us/article/nee1mb6/Get-started-with-Webex-Contact-Center#Cisco_Task_in_List_GUI.dita_d7731baf-98fb-4a45-8f75-30984a38fa75) to get more details
@@ -83,7 +83,24 @@ Follow the next steps before publishing the flow:
 
 6. If you want, you can also edit the _Flow Init_ node Transaction Action Set Variable Action, for the variable _resolveConversationMessage_: this is the text shown in the WxCC Agent Desktop when the interaction is accepted.
 
-## Using the flow
+## How to trigger the flow
+Now you only need to trigger the flow from your application:
+  ```
+  curl --location URL \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+      "customerName":NAME,
+      "customerEmail":EMAIL,
+      "videoCallDestination": <VIDEO_CALL_DESTINATION>,
+      "inappmessaging.appId":,
+      "inappmessaging.userId":"6806ea7s-a04e-4fdb-9d86-0b33626f3577"
+  }'
+  ```
+URL = 
+NAME = Customer name that will be shown in the WxCC Agent Desktop
+EMAIL = Customer email. If you are planning to use JDS, this must the customer email for the identgiry in JDS
+videoCallDestination = A custom variable that you can control in the flow. For video use casa like this, aaaa
+
 
 
  ## Disclaimer
