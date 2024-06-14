@@ -21,18 +21,26 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
 
 ### Entry Points and Queues setup
-Now we need ....
+Now we need to configure the system for sending the interaction to the right queue:
 1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
 > The login URL will change depending on your region
 2. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Entry Point_** and create a new Entry Point
-3. Set the following values
-- Name = Chat-EP (this is an example)
-- Type = Entry Point
-- Channel Type = Chat
-- Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my-chat-app' in this example
-- Service Level Threshold = 120 (this is an example)
-- And a Description of your choice
-- Click on **_Save_**
+3. Set the following values, and then Click on **_Save_**
+ - Name = Chat-EP (this is an example)
+ - Type = Entry Point
+ - Channel Type = Chat
+ - Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my-chat-app' in this example
+ - Service Level Threshold = 120 (this is an example)
+ - And a Description of your choice
+4. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Queue_** and create a new Queue
+5. Set the following values, and then Click on **_Save_**
+  - Name = Chat-queue (this is an example)
+  - Add a Description of your choice
+  - Type = Queue
+  - Channel Type = Chat
+  - Click on **_Add Group_** in the **_Contact Routing Settings_**. Choose the Team of agents that you want to answer to these interactions
+  - Service Level Threshold and Maximum Time in Queue = 120 (this is an example)
+  - 
 
 
 
