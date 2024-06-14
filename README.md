@@ -21,14 +21,25 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
 
 ### Entry Points and Queues setup
+Now we need ....
 1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
 > The login URL will change depending on your region
-2. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Entry Point
-3.
+2. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Entry Point_** and create a new Entry Point
+3. Set the following values
+Name = Chat-EP (this is an example)
+Type = Entry Point
+Channel Type = Chat
+Asset Name = select the WxConnect Asset Name you created in the [previous step](), 'my-chat-app' in this example
+
+And a Description of your choice
 
 
+1.qas
+2.
 
-<img width="136" alt="image" src="https://github.com/wxsd-sales/video-for-wxcc/assets/22101144/004850e4-6623-44ad-ad78-b5c845e816e2">
+
+1. asfddwasf
+2. 
 
 
 
