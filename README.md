@@ -107,9 +107,7 @@ VIDEOCALLDESTINATION = A custom variable that you can control in the flow. For v
 
 APPID = The **_App ID_** configured in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow)
 
-UUID = A unique UUid of your choice
-
-
+UUID = A unique UUID of your choice
 
  ## Disclaimer
  This flow can be used only for demo purposes
