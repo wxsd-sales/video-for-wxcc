@@ -15,8 +15,9 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 
 1. Log in to your WxConnent tenant
 2. Navigate to the Menu **_Assets, Apps_**, click on **_Configure New App_** and choose **_Mobile / Web_**
-3. Set a name of your choice
+3. Set a name of your choice, we will use 'my-chat-app' in this example
 4. When you enable **_Live Chat / In-App Messaging_**, you can choose the Primary and Secondary Transport Protocol. Primary must be **_MQTT_**, and Secondary **_Web Socket_**.
+5. Check the option **_Use Secured Port_**, and Save
 
  
  Download this Webex Connect Flow
