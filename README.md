@@ -21,8 +21,8 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
 
 ### Entry Points and Queues setup
-Log in to your WxCC tenant [here](https://portal-v2.wxcc-us1.cisco.com)
-
+Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
+> The URL 
 
 
  
