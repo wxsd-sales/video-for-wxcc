@@ -20,6 +20,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 5. Check the option **_Use Secured Port_**, and Save
 6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
 Please write down the **_Client Key_** value, you will need it later.
+7. Go to back to **_Assets, Apps_**. You will see a list of Apps, write down the **_App ID_** for the one you just created
 
 ### Webex Engage Asset setup
 1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
@@ -96,17 +97,17 @@ Now you only need to trigger the flow from your application:
       "inappmessaging.userId":"UUID"
   }'
   ```
-URL = The Webhook URL configured in the [previous step]()
+URL = The Webhook URL configured in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow)
 
 NAME = Customer name that will be shown in the WxCC Agent Desktop
 
-EMAIL = Customer email. If you are planning to use JDS, this must the customer email for the identity in JDS
+EMAIL = Customer email. If you are planning to use JDS, this must be the customer email for the identity in JDS
 
-VIDEOCALLDESTINATION = A custom variable that you can control in the flow. For video use cases like [this](link), this will be the SIP URi destination
+VIDEOCALLDESTINATION = A custom variable that you can control in the flow. For video use cases like [this](https://github.com/wxsd-sales/video-cc-widget-lit), this will be the Video SIP URi destination
 
-APPID = 
+APPID = The **_App ID_** configured in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow)
 
-UUID = 
+UUID = A unique UUid of your choice
 
 
 
