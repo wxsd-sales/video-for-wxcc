@@ -83,5 +83,8 @@ Follow the next steps before publishing the flow:
 
 6. If you want, you can also edit the _Flow Init_ node Transaction Action Set Variable Action, for the variable _resolveConversationMessage_: this is the text shown in the WxCC Agent Desktop when the interaction is accepted.
 
+## Using the flow
+
+
  ## Disclaimer
  This flow can be used only for demo purposes
