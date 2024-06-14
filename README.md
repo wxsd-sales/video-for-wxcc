@@ -1,5 +1,5 @@
 # Video interaction trigger into WxCC
-In this document we are providing instructions to trigger a video interaction into Webex Contact Center. We will be using a Live Chat Inbound Flow fhor this.
+In this document we are providing instructions to trigger a video interaction into Webex Contact Center. We will be using a Live Chat Inbound Flow for this.
 
 ## Overview
 Webex Contact Center (WxCC) offers a comprehensive set of integration capabilities.
@@ -18,3 +18,6 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
  
  
  Download this Webex Connect Flow
+
+ ## Disclaimer
+ This flwo can be used only for demo purposes
