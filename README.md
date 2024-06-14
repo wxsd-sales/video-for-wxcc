@@ -18,6 +18,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 3. Set a name of your choice, we will use 'my-chat-app' in this example
 4. When you enable **_Live Chat / In-App Messaging_**, you can choose the Primary and Secondary Transport Protocol. Primary must be **_MQTT_**, and Secondary **_Web Socket_**.
 5. Check the option **_Use Secured Port_**, and Save
+6. When the application is saved, the buttons **_Register to Webex Engage_** and **_Configure Outbound Webhooks_** will be enabled. Click on **_Register to Webex Engage_**, select some of your existing Webex Connect services (if you do not have any you should create a new one), and click on the **_Register_** blue button.
 
  
  Download this Webex Connect Flow
