@@ -14,8 +14,10 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 ### Create a Webex Connect Chat Asset
 
 1. Log in your WxConnent tenant
-2. Navigate to the Menu **_Assets, Apps_**, and clock on **_Configure New App_**
- 
+2. Navigate to the Menu **_Assets, Apps_**, click on **_Configure New App_** and choose **_Mobile / Web_**
+3. Set a name of your choice
+4. When you enable **_Live Chat / In-App Messaging_**, you will be able to choose the Primary and Secondary transport protocol
+
  
  Download this Webex Connect Flow
 
