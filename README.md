@@ -38,13 +38,14 @@ Now we need to configure the system for sending the interaction to the right que
   - Add a Description of your choice
   - Type = Queue
   - Channel Type = Chat
-  - Click on **_Add Group_** in the **_Contact Routing Settings_**. Choose the Team of agents that you want to answer to these interactions
+  - Click on **_Add Group_** in the **_Contact Routing Settings_**. Choose the Team of agents that you want to answer these interactions
   - Service Level Threshold and Maximum Time in Queue = 120 (this is an example)
 
 ### Webex Connect Flow
-1. Download the [flow]()
-2. a
+1. Download the [flow](https://github.com/wxsd-sales/video-for-wxcc/blob/main/35435.workflow)
+2. Go to the Service you chose in the [previous step]() and create a new flow
 3. a
+4. a
 
 a
 
