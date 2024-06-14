@@ -14,10 +14,10 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 ### Create a Webex Connect Chat Asset
 
 1. Log in your WxConnent tenant
-2. Navigate to the Menu **_Assets, Apps_**
+2. Navigate to the Menu **_Assets, Apps_**, and clock on **_Configure New App_**
  
  
  Download this Webex Connect Flow
 
  ## Disclaimer
- This flwo can be used only for demo purposes
+ This flow can be used only for demo purposes
