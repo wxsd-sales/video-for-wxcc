@@ -23,8 +23,7 @@ Please write down the **_Client Key_** value, you will need it later.
 7. Go to back to **_Assets, Apps_**. You will see a list of Apps, write down the **_App ID_** for the one you just created
 
 ### Webex Engage Asset setup
-1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
-> The login URL will change depending on your region
+1. Log in Control Hub as Contact Center Admin, and under **SERVICES** go to Contact Center. On the right side panel, click on **Webex Engage**.
 2. Navigate to **_New Digital Channels_**
 3. Navigate to **_Assets -> Channels Assets_**, and click on the pen icon for the Asset with the same name you chose in the previous step (my_chat_app in this example)
 4. Go to **_Websites_**, and add a new web site
@@ -35,25 +34,24 @@ Please write down the **_Client Key_** value, you will need it later.
 
 ### Entry Points and Queues setup
 Now we need to configure the system for sending the interaction to the right queue:
-1. Log in to your WxCC tenant at https://portal-v2.wxcc-us1.cisco.com
-> The login URL will change depending on your region
-2. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Entry Point_** and create a new Entry Point
+1. Log in Control Hub as Contact Center Admin, and under **SERVICES** go to Contact Center.
+2. Navigate to the Menu **_Channels_** and click on **_Create Channel_**
 3. Set the following values, and then Click on **_Save_**
  - Name = Chat-EP (this is an example)
- - Type = Entry Point
  - Channel Type = Chat
  - Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my_chat_app' in this example
  - Service Level Threshold = 120 (this is an example)
- - And a Description of your choice
-4. Navigate to the Menu **_Provisioning -> Entry Points/Queues -> Queue_** and create a new Queue
+ - And a Description of your choice and your prefered Timezone
+4. Navigate to the Menu **_Queues_** and create a new Queue
 5. Set the following values, and then Click on **_Save_**
   - Name = Chat-queue (this is an example)
   - Add a Description of your choice
-  - Type = Queue
+  - Queue Type = Inbound Queue
   - Channel Type = Chat
   - Queue Routing Type = Longest Available Agent (this is an example)
-  - Click on **_Add Group_** in the **_Contact Routing Settings_**. Choose the Team of agents that you want to answer these interactions
+  - Click on **Create Group_** in the **_Contact Routing Settings_**. Choose the Team of agents that you want to answer these interactions
   - Service Level Threshold and Maximum Time in Queue = 120 (this is an example)
+  - Maximum Time in Queue = 60 (this is an example)
 
 ### Webex Connect Flow
 1. Download the [flow](https://github.com/wxsd-sales/video-for-wxcc/blob/main/35435.workflow)
