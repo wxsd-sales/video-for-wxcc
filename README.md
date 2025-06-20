@@ -86,7 +86,8 @@ Follow the next steps before publishing the flow:
 
 In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
 
-1. Import this [macro]() on the Cisco video device (A Desk Pro was used in this example)
+1. Import this [macro](https://github.com/wxsd-sales/video-for-wxcc/blob/main/macro.js) on the Cisco video device (A Desk Pro was used in this example)
+2. Customer Date is taken from JDS WxCC. Customer Journey is also updated with thiw new interaction
 
 
 
