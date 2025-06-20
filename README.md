@@ -87,7 +87,43 @@ Follow the next steps before publishing the flow:
 In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
 
 1. Import this [macro](https://github.com/wxsd-sales/video-for-wxcc/blob/main/macro.js) on the Cisco video device (A Desk Pro was used in this example)
-2. Customer Date is taken from JDS WxCC. Customer Journey is also updated with thiw new interaction
+2. Customer Date is taken from WxCC JDS. A new customer interaction is also added to WxCC JDS. Contact me at vvazquez@cisco.com if you want to use our JDS orhcestrator, or if you want to build a new one.
+3. Add a WxCC Widget, by adding this lines in your WxCC Desktop Layout panel section:
+
+```js
+{
+          "comp": "md-tab",
+          "attributes": { "slot": "tab", "class": "widget-pane-tab" },
+          "children": [{ "comp": "span", "textContent": "Video Kiosk Support" }]
+        },
+        
+        {
+          "comp": "md-tab-panel",
+          "attributes": {
+            "slot": "panel",
+            "class": "widget-pane"
+          },
+          "children": [
+            {
+              "comp": "video-cc-widget",
+              "script": "https://wxsd-sales.github.io/video-cc-widget-lit/public/video-cc-widget.js",
+              "wrapper": {
+                "title": "Video Kiosk Support",
+                "maximizeAreaName": "app-maximize-area"
+              },
+              "attributes": {
+                "darkmode": "$STORE.app.darkMode"
+              },
+              "properties": {
+                "accessToken": "$STORE.auth.accessToken",
+                "outdialEp": "$STORE.agent.outDialEp",
+                "ani": "$STORE.agentContact.taskSelected.ani",
+                "callData": "$STORE.agentContact.taskSelected.callAssociatedData"
+              }
+            }
+          ]
+        },
+```
 
 
 
