@@ -82,6 +82,14 @@ Follow the next steps before publishing the flow:
 
 6. If you want, you can also edit the _Flow Init_ node Transaction Action Set Variable Action, for the variable _resolveConversationMessage_: this is the text shown in the WxCC Agent Desktop when the interaction is accepted.
 
+## Example
+
+In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
+
+1. Import this [macro]() on the Cisco video device (A Desk Pro was used in this example)
+
+
+
 ## How to trigger the flow
 Now you only need to trigger the flow from your application:
   ```
