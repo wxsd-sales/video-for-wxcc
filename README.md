@@ -54,7 +54,7 @@ Now we need to configure the system for sending the interaction to the right que
   - Maximum Time in Queue = 60 (this is an example)
 
 ### Webex Connect Flow
-1. Download the [flow](https://github.com/wxsd-sales/video-for-wxcc/blob/main/35435.workflow)
+1. Download the [flow](https://github.com/wxsd-sales/video-for-wxcc/blob/main/63672.workflow)
 2. Go to the Service you chose in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset) and create a new flow
 3. Set a name of your choice, 'my_chat_flow' in this example. As **Method**_, choose **_Upload a flow_**, and choose the flow file you downloaded
 4. Select **_Create new Event_** and choose a Name for your Webhook (chat-webhook in this example)
