@@ -2,7 +2,7 @@
 This document provides instructions to trigger a customer interaction with Webex Contact Center (WxCC). 
 
 ## Overview
-Webex Contact Center (WxCC) offers a comprehensive set of integration capabilities. Reading this document you will learn how to set WxCC Entry Points and Queues, Webex Engage and Connect Assets, and the neeed Live Chat Inbound Webex Connect Flow to trigger the interaction.
+Webex Contact Center (WxCC) offers a comprehensive set of integration capabilities. Reading this document you will learn how to set WxCC Entry Points and Queues, Webex Engage and Connect Assets, and the need Live Chat Inbound Webex Connect Flow to trigger the interaction.
  
 ## Prerequisites & Dependencies
 - Webex Connect services must be up and running, you can visit this [link](https://help.webex.com/en-us/article/nee1mb6/Get-started-with-Webex-Contact-Center#Cisco_Task_in_List_GUI.dita_d7731baf-98fb-4a45-8f75-30984a38fa75) to get more details
@@ -41,7 +41,7 @@ Now we need to configure the system for sending the interaction to the right que
  - Channel Type = Chat
  - Asset Name = Select the WxConnect Asset Name you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset), 'my_chat_app' in this example
  - Service Level Threshold = 120 (this is an example)
- - And a Description of your choice and your prefered Timezone
+ - And a Description of your choice and your preferred Timezone
 4. Navigate to the Menu **_Queues_** and create a new Queue
 5. Set the following values, and then Click on **_Save_**
   - Name = Chat-queue (this is an example)
@@ -87,8 +87,8 @@ Follow the next steps before publishing the flow:
 In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
 
 1. Import this [macro](https://github.com/wxsd-sales/video-for-wxcc/blob/main/macro.js) on the Cisco video device (A Desk Pro was used in this example)
-2. Customer Data is read from WxCC JDS. A new customer interaction is also added to WxCC JDS. Contact me at vvazquez@cisco.com if you want to use our JDS orhcestrator, or if you want to build a new one.
-3. Add a WxCC Widget, by adding this lines in your WxCC Desktop Layout panel section:
+2. Customer Data is read from WxCC JDS. A new customer interaction is also added to WxCC JDS. Contact me at vvazquez@cisco.com if you want to use our JDS orchestrator, or if you want to build a new one.
+3. Add a WxCC Widget, by adding these lines in your WxCC Desktop Layout panel section:
 
 ```js
 {
@@ -125,7 +125,7 @@ In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e
         },
 ```
 
-In [this repository](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow), you can find more details about the Webex Meetings SDK based widget which enables video webRTC communications in WxCC Agent Desktop.
+In [this repository](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow), you can find more details about the Webex Meetings SDK-based widget which enables video webRTC communications in WxCC Agent Desktop.
 
 ## License
 
@@ -135,7 +135,7 @@ All contents are licensed under the MIT license. Please see [license](https://gi
 
 This flow can be used only for demo purposes.
 
-Everything included is for demo and Proof of Concept purposes only. Use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex use cases, but are not Official Cisco Webex Branded demos.
+Everything included is for demo and Proof of Concept purposes only. Use of the site is solely at your own risk. This site may contain links to third-party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex use cases, but are not Official Cisco Webex Branded demos.
 
 ## Questions
 Please, contact the WXSD team at wxsd@external.cisco.com for questions. Or, if you're a Cisco internal employee, reach out to us on the Webex App via our bot (globalexpert@webex.bot). In the "Engagement Type" field, choose the "API/SDK Proof of Concept Integration Development" option to reach our team.
