@@ -125,32 +125,7 @@ In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e
         },
 ```
 
-
-
-## How to trigger the flow
-Now you only need to trigger the flow from your application:
-  ```
-  curl --location URL \
-  --header 'Content-Type: application/json' \
-  --data-raw '{
-      "customerName": NAME,
-      "customerEmail": EMAIL,
-      "videoCallDestination": VIDEO_CALL_DESTINATION,
-      "inappmessaging.appId": APPID,
-      "inappmessaging.userId":"UUID"
-  }'
-  ```
-URL = The Webhook URL configured in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow)
-
-NAME = Customer name that will be shown in the WxCC Agent Desktop
-
-EMAIL = Customer email. If you are planning to use JDS, this must be the customer email for the identity in JDS
-
-VIDEOCALLDESTINATION = A custom variable that you can control in the flow. For video use cases like [this](https://github.com/wxsd-sales/video-cc-widget-lit), this will be the Video SIP URi destination
-
-APPID = The **_App ID_** configured in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow)
-
-UUID = A unique UUID of your choice
+In [this repo](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow) you can find more details about this Webex Meetings SDK based widget that will allow you to have video webRTC communications in WxCC Agent Desktop.
 
 ## License
 
