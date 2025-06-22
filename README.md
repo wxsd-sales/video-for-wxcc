@@ -73,7 +73,7 @@ Your Flow Init configuration should look like this:
 
 Follow the next steps before publishing the flow:
 1. Edit some of the Custom Variables:
-- _serviceKey_ = Use the Client Key Value created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset)
+- _secretKey_ = Use the Client Key Value created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#create-a-webex-connect-chat-asset)
  - _liveChatDomain_ = The value you chose in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-engage-asset-setup) (*.mydomain.com in this example)
 3. Open the _Receive_ Node and click on **_Save_**
 4. Open the _Queue Task_ Node, and select the queue you created in the [previous step](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#entry-points-and-queues-setup) (Chat-queue in this example)
