@@ -82,7 +82,9 @@ Follow the next steps before publishing the flow:
 
 6. If you want, you can also edit the _Flow Init_ node Transaction Action Set Variable Action, for the variable _resolveConversationMessage_: this is the text shown in the WxCC Agent Desktop when the interaction is accepted.
 
-## Example
+## Examples
+
+### Comprehensive demo with JDS integration
 
 In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
 
@@ -126,6 +128,15 @@ In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e
 ```
 
 In [this repository](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow), you can find more details about the Webex Meetings SDK-based widget which enables video webRTC communications in WxCC Agent Desktop.
+
+### Simplified demo
+
+In this section we describe how to setup a simplified one-page version of the same demo, with no order check, just a button to speak with an expert. JDS integration is not included.
+
+
+[Here] you can see a video of the demo
+
+
 
 ## License
 
