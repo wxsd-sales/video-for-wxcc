@@ -132,6 +132,13 @@ In [this repository](https://github.com/wxsd-sales/video-for-wxcc/blob/main/READ
 ### Simplified demo
 
 In this section we describe how to setup a simplified one-page version of the same demo, with no order check, just a button to speak with an expert. JDS integration is not included.
+This is an example of a URL that you can use:
+```js
+https://wxsd-sales.github.io/video-kiosk-for-wxcc-short/logo=https://cdn.bfldr.com/ENSXS21L/at/w72fhrksf5n3xc4ntpx8kg/RGB_Webex_Logo_lockups_.ai?format=png&ipaddress=192.168.100.232&username=victor&password=cisco,123&connectappid=DA18093757&customername=John&customeremail=john@email.com&background=https://assets2.brandfolder.io/bf-boulder-prod/xbqbmsxbcnx9kp43q7tbfxw/v/56763683/original/02_13_2021_SHOT_01-02-03_A_0664.jpg&lang=en
+```
+
+It is very easy to setup your own version of the demo, you only neeed to change the URL parameters:
+
 
 
 [Here] you can see a video of the demo
