@@ -144,8 +144,8 @@ It is very easy to setup your own version of the demo, you only neeed to change 
 
 - `logo`= URL to your own logo image
 - `background` = URL to your own backgorund image
-- `username`= User name with admin or XXX video device permissions
-- `password`= Password for the admin or XXX user name
+- `username`= User name with admin or integrator video device permissions
+- `password`= Password for the admin or integrator user name
 - `ipaddress`= IP address of the video device
 - `customername` = The customer name that you want to show in the WxCC agent desktop
 - `customerEmail` = If you are using JDS, this email address will be used to a new interaction into the customer journey
