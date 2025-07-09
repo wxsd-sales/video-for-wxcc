@@ -89,8 +89,13 @@ Follow the next steps before publishing the flow:
 In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
 
 1. Import this [macro](https://github.com/wxsd-sales/video-for-wxcc/blob/main/macro.js) on the Cisco video device (A Desk Pro was used in this example). This macro will use as `videoCallDestination` the video device SIP URI.
-2. Customer Data is read from WxCC JDS. A new customer interaction is also added to WxCC JDS. Contact me at vvazquez@cisco.com if you want to use our JDS orchestrator, or if you want to build a new one.
-3. Add a WxCC Widget, by adding these lines in your WxCC Desktop Layout panel section:
+2. Macro setup, change these values:
+   
+   - `AGENT_CONNECT_URL` = your Webex Connect Flow Webhook URL
+   - `AGENT_CONNECT_APPID`= your Webex Connect Chat Asset App ID
+
+4. Customer Data is read from WxCC JDS. A new customer interaction is also added to WxCC JDS. Contact me at vvazquez@cisco.com if you want to use our JDS orchestrator, or if you want to build a new one.
+5. Add a WxCC Widget, by adding these lines in your WxCC Desktop Layout panel section:
 
 ```js
 {
@@ -150,7 +155,7 @@ It is very easy to setup your own version of the demo, you only neeed to change 
 - `customername` = The customer name that you want to show in the WxCC agent desktop
 - `customerEmail` = If you are using JDS, this email address will be used to a new interaction into the customer journey
 - `connectURL` = Webex Connect Webhook URL. This should be the Webhook URL for the flow created in the [previous section](#webex-connect-flow)
-- `appid` = The Application ID
+- `appid` = The Id of the Webex Connect Chat Asset created in the [previous section](#create-a-webex-connect-chat-asset)
 - `language` = you can choose 'en' for English, or 'es' for Spanish. 
 
 ## License
