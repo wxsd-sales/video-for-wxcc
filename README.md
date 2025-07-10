@@ -84,7 +84,7 @@ Follow the next steps before publishing the flow:
 
 ## Examples
 
-### Comprehensive demo with JDS integration
+### 1. Comprehensive demo with JDS integration
 
 In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e3) you can see an example of what you can create. After the creation of the Webex Connect Flow, you should follow these additional steps:
 
@@ -132,7 +132,7 @@ In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e
         },
 ```
 
-### Simplified demo
+### 2. Simplified demo
 
 In this section we describe how to setup a simplified one-page version of the same demo, with no order check, just a button to speak with an expert. JDS integration is not included.
 [Here](https://github.com/wxsd-sales/video-for-wxcc) you can see a video of the demo.
