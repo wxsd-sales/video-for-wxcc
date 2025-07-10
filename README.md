@@ -135,7 +135,7 @@ In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e
 ### 2. Simplified demo
 
 In this section we describe how to setup a simplified one-page version of the same demo, with no order check, just a button to speak with an expert. JDS integration is not included.
-[Here](https://github.com/wxsd-sales/video-for-wxcc) you can see a video of the demo.
+[Here](https://app.vidcast.io/share/fb6fe854-504c-4032-aaa0-cbe743bc5843?playerMode=vidcast) you can see a video of the demo.
 
 This is an example of a URL that you can use:
 ```js
