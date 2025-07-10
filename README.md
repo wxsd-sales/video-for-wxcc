@@ -132,8 +132,6 @@ In this [video](https://app.vidcast.io/share/975ce20b-1c2b-4c6d-a340-df70b42a96e
         },
 ```
 
-In [this repository](https://github.com/wxsd-sales/video-for-wxcc/blob/main/README.md#webex-connect-flow), you can find more details about the Webex Meetings SDK-based widget which enables video webRTC communications in WxCC Agent Desktop.
-
 ### Simplified demo
 
 In this section we describe how to setup a simplified one-page version of the same demo, with no order check, just a button to speak with an expert. JDS integration is not included.
