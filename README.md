@@ -139,7 +139,7 @@ In this section we describe how to setup a simplified one-page version of the sa
 
 This is an example of a URL that you can use:
 ```js
-https://wxsd-sales.github.io/video-kiosk-for-wxcc-short/logo=https://cdn.bfldr.com/ENSXS21L/at/w72fhrksf5n3xc4ntpx8kg/RGB_Webex_Logo_lockups_.ai?format=png&ipaddress=192.168.100.232&username=victor&password=cisco,123&connectappid=DA18093757&customername=John&customeremail=john@email.com&background=https://assets2.brandfolder.io/bf-boulder-prod/xbqbmsxbcnx9kp43q7tbfxw/v/56763683/original/02_13_2021_SHOT_01-02-03_A_0664.jpg&lang=en
+https://wxsd-sales.github.io/video-kiosk-for-wxcc-short/?logo=https://cdn.bfldr.com/ENSXS21L/at/w72fhrksf5n3xc4ntpx8kg/RGB_Webex_Logo_lockups_.ai?format=png&ipaddress=192.168.100.232&username=victor&password=cisco,123&connectappid=DA18093757&customername=John&customeremail=john@email.com&background=https://assets2.brandfolder.io/bf-boulder-prod/xbqbmsxbcnx9kp43q7tbfxw/v/56763683/original/02_13_2021_SHOT_01-02-03_A_0664.jpg&lang=en
 ```
 You have to configure a WebApp on your video device , or use it as your kiosk mode URL (Desk or Board device).
 
