@@ -7,7 +7,7 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 ## Prerequisites & Dependencies
 - Webex Connect services must be up and running, you can visit this [link](https://help.webex.com/en-us/article/nee1mb6/Get-started-with-Webex-Contact-Center#Cisco_Task_in_List_GUI.dita_d7731baf-98fb-4a45-8f75-30984a38fa75) to get more details
 - _Webex CC Task_ and _Webex CC Engage_ nodes must be in an Authorized state, you can visit this [link](https://help.webex.com/en-us/article/n954r0k/Set-up-digital-channels-in-Webex-Contact-Center) to get more details
-- A basic understanding of Live Chat channel asset configuration for Webex Connect is neededhttps://github.com/wxsd-sales/video-for-wxcc
+- A basic understanding of Live Chat channel asset configuration for Webex Connect is needed.
 
 ## Setup
 
