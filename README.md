@@ -22,6 +22,12 @@ Webex Contact Center (WxCC) offers a comprehensive set of integration capabiliti
 Please write down the **_Client Key_** value, you will need it later.
 7. Go to back to **_Assets, Apps_**. You will see a list of Apps, write down the **_App ID_** for the one you just created
 
+### Create a Chat Template
+
+1. Log in to your WxConnent tenant
+2. Navigate to the Menu **Tools, Templates**, click on **_Add New Teamplate_**.
+3. Give it a **Name** and choose **Live Chat/In-App** Messaging as the channel.
+
 ### Webex Engage Asset setup
 1. Log in Control Hub as Contact Center Admin, and under **SERVICES** go to Contact Center. On the right side panel, click on **Webex Engage**.
 2. Navigate to **_New Digital Channels_**
