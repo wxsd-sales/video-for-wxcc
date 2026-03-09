@@ -26,7 +26,8 @@ Please write down the **_Client Key_** value, you will need it later.
 
 1. Log in to your WxConnent tenant
 2. Navigate to the Menu **Tools, Templates**, click on **_Add New Teamplate_**.
-3. Give it a **Name** and choose **Live Chat/In-App** Messaging as the channel.
+3. As Message Type choose _Form_ and choose a **Title**, for example: 'Please write your name, and we will connect you with the next available expert'
+4. Click on **Save**
 
 ### Webex Engage Asset setup
 1. Log in Control Hub as Contact Center Admin, and under **SERVICES** go to Contact Center. On the right side panel, click on **Webex Engage**.
